@@ -1,0 +1,328 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--
+    Microsoft ResX Schema
+
+    Version 2.0
+
+    The primary goals of this format is to allow a simple XML format
+    that is mostly human readable. The generation and parsing of the
+    various data types are done through the TypeConverter classes
+    associated with the data types.
+
+    Example:
+
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+
+    There are any number of "resheader" rows that contain simple
+    name/value pairs.
+
+    Each data row contains a name, and value. The row also contains a
+    type or mimetype. Type corresponds to a .NET class that support
+    text/value conversion through the TypeConverter architecture.
+    Classes that don't support this are serialized and stored with the
+    mimetype set.
+
+    The mimetype is used for serialized objects, and tells the
+    ResXResourceReader how to depersist the object. This is currently not
+    extensible. For a given mimetype the value must be set accordingly:
+
+    Note - application/x-microsoft.net.object.binary.base64 is the format
+    that the ResXResourceWriter will generate, however the reader can
+    read any of the formats listed below.
+
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="studentNameLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 12pt, style=Bold</value>
+  </data>
+  <data name="studentNameLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>289, 122</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="studentNameLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="studentNameLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 28</value>
+  </data>
+  <data name="studentNameLabel.Text" xml:space="preserve">
+    <value>Ім'я:</value>
+  </data>
+  <data name="studentNameBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>352, 122</value>
+  </data>
+  <data name="studentNameBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="studentNameBox.MaxLength" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="studentNameBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>264, 26</value>
+  </data>
+  <data name="studentSurnameBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>352, 162</value>
+  </data>
+  <data name="studentSurnameBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="studentSurnameBox.MaxLength" type="System.Int32, mscorlib">
+    <value>61</value>
+  </data>
+  <data name="studentSurnameBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>264, 26</value>
+  </data>
+  <data name="studentSurnameLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 12pt, style=Bold</value>
+  </data>
+  <data name="studentSurnameLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>255, 162</value>
+  </data>
+  <data name="studentSurnameLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="studentSurnameLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 28</value>
+  </data>
+  <data name="studentSurnameLabel.Text" xml:space="preserve">
+    <value>Прізвище:</value>
+  </data>
+  <data name="studentMiddleNameBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>352, 198</value>
+  </data>
+  <data name="studentMiddleNameBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="studentMiddleNameBox.MaxLength" type="System.Int32, mscorlib">
+    <value>70</value>
+  </data>
+  <data name="studentMiddleNameBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>264, 26</value>
+  </data>
+  <data name="studentMiddleNameLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 12pt, style=Bold</value>
+  </data>
+  <data name="studentMiddleNameLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>242, 201</value>
+  </data>
+  <data name="studentMiddleNameLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="studentMiddleNameLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 28</value>
+  </data>
+  <data name="studentMiddleNameLabel.Text" xml:space="preserve">
+    <value>По-батькові:</value>
+  </data>
+  <data name="StudentDateBitrhdayPicker.Location" type="System.Drawing.Point, System.Drawing">
+    <value>352, 234</value>
+  </data>
+  <data name="StudentDateBitrhdayPicker.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="StudentDateBitrhdayPicker.Size" type="System.Drawing.Size, System.Drawing">
+    <value>264, 26</value>
+  </data>
+  <data name="studentDateBirthdayLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 12pt, style=Bold</value>
+  </data>
+  <data name="studentDateBirthdayLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>200, 232</value>
+  </data>
+  <data name="studentDateBirthdayLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="studentDateBirthdayLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>144, 28</value>
+  </data>
+  <data name="studentDateBirthdayLabel.Text" xml:space="preserve">
+    <value>Дата народження:</value>
+  </data>
+  <data name="ManRadioButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>352, 270</value>
+  </data>
+  <data name="ManRadioButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="ManRadioButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 30</value>
+  </data>
+  <data name="ManRadioButton.Text" xml:space="preserve">
+    <value>Чоловік</value>
+  </data>
+  <data name="FemaleRadioButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>450, 270</value>
+  </data>
+  <data name="FemaleRadioButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="FemaleRadioButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 30</value>
+  </data>
+  <data name="FemaleRadioButton.Text" xml:space="preserve">
+    <value>Дівчина</value>
+  </data>
+  <data name="studentGenderLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 12pt, style=Bold</value>
+  </data>
+  <data name="studentGenderLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>286, 276</value>
+  </data>
+  <data name="studentGenderLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="studentGenderLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 19</value>
+  </data>
+  <data name="studentGenderLabel.Text" xml:space="preserve">
+    <value>Стать:</value>
+  </data>
+  <data name="MajorsComboBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="MajorsComboBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>264, 27</value>
+  </data>
+  <data name="studentMajorLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 12pt, style=Bold</value>
+  </data>
+  <data name="studentMajorLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>226, 302</value>
+  </data>
+  <data name="studentMajorLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="studentMajorLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 28</value>
+  </data>
+  <data name="studentMajorLabel.Text" xml:space="preserve">
+    <value>Спеціальність:</value>
+  </data>
+  <data name="MainLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="MainLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>153, 19</value>
+  </data>
+  <data name="MainLabel.Text" xml:space="preserve">
+    <value>Реєстрація студента</value>
+  </data>
+  <data name="StudentSignUpButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>315, 381</value>
+  </data>
+  <data name="StudentSignUpButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>207, 86</value>
+  </data>
+  <data name="StudentSignUpButton.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="StudentSignUpButton.Text" xml:space="preserve">
+    <value>Зареєструвати студента</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>9, 19</value>
+  </data>
+  <data name="$this.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="$this.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>784, 561</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 12pt, style=Bold</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+</root>
