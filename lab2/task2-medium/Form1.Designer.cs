@@ -150,7 +150,7 @@ namespace task2_medium
             electricityLabel.Name = "electricityLabel";
             electricityLabel.Size = new Size(285, 22);
             electricityLabel.TabIndex = 1;
-            electricityLabel.Text = "Світло, кВт·год";
+            electricityLabel.Text = "Світло, кВт-год";
             electricityLabel.TextAlign = ContentAlignment.MiddleLeft;
             // 
             // gasLabel
